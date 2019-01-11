@@ -1,0 +1,151 @@
+.pokemon_block{
+    margin: 4px 6px;
+    cursor: pointer;
+    background-color: #30CA0F;
+    color: white;
+    border-radius: 10px;
+}
+
+#pokemon-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 6px;
+}
+
+/* Modal Style */
+.modal-header{
+    background-color: #4C8C2C;
+    color: white;
+}
+
+.modal-header button{
+    color: white;
+    opacity: 1;
+}
+
+.pokemon-id{
+    text-align: right;
+    font-size: 25px;
+}
+
+#abilities{
+    color: white;
+    padding-left: 10px;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+summary{
+    outline: 0;
+}
+
+#moves{
+    color: white;
+    padding-left: 10px;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+#div-moves{
+    width: 100%;
+}
+
+.pokemon-type{
+    color: #fff;
+    border-radius: 2px;
+    font-size: 16px;
+    font-variant: small-caps;
+    font-weight: 600;
+    margin-right: 5px;
+    padding: 1px 10px 5px;
+}
+
+.grass{
+    border: 1px solid rgb(186, 227, 166);
+    background: rgb(105, 194, 61);
+}
+
+.poison{
+        border: 1px solid rgb(200, 116, 200);
+    background: rgb(146, 58, 146);
+}
+
+.fire{
+    border: 1px solid rgb(247, 191, 151);
+    background: rgb(237, 109, 18);
+}
+
+.flying{
+    border: 1px solid rgb(255, 255, 255);
+    background: rgb(142, 111, 235);
+}
+
+.water{
+    border: 1px solid rgb(227, 235, 252);
+    background: rgb(69, 120, 237);
+}
+
+.bug{
+    border: 1px solid rgb(209, 224, 77);
+    background: rgb(151, 165, 29);
+}
+
+.normal{
+    border: 1px solid rgb(211, 211, 187);
+    background: rgb(156, 156, 99);
+}
+
+.electric{
+    border: 1px solid rgb(252, 234, 161);
+    background: rgb(246, 201, 19);
+}
+
+.fairy{
+    border: 1px solid rgb(255, 255, 255);
+    background: rgb(232, 120, 144);
+}
+
+.ground{
+    border: 1px solid rgb(246, 237, 213);
+    background: rgb(219, 181, 77);
+}
+
+.ice{
+    border: 1px solid rgb(255, 255, 255);
+    background: rgb(126, 206, 206);
+}
+
+.psychic{
+    border: 1px solid rgb(253, 216, 227);
+    background: rgb(247, 54, 112);
+}
+
+.fighting{
+    border: 1px solid rgb(223, 105, 98);
+    background: rgb(174, 42, 36);
+}
+
+.rock{
+    border: 1px solid rgb(214, 197, 122);
+    background: rgb(164, 143, 50);
+}
+
+.ghost{
+    border: 1px solid rgb(163, 145, 192);
+    background: rgb(100, 78, 136);
+}
+
+.dark{
+    border: 1px solid rgb(156, 122, 99);
+    background: rgb(100, 78, 64);
+}
+
+.dragon{
+    border: 1px solid rgb(199, 176, 252);
+    background: rgb(94, 29, 247);
+}
+
+.steel{
+    border: 1px solid rgb(255, 255, 255);
+    background: rgb(160, 160, 192);
+}
