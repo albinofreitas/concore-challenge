@@ -5,6 +5,7 @@
   "main": "server.js",
   "dependencies": {
     "cors": "^2.8.5",
+    "lit-html": "^1.0.0-rc.2",
     "xpress": "^2.4.6"
   },
   "devDependencies": {},
